@@ -18,14 +18,14 @@ experimentCategory.setAttribute("class", "col-sm-4");
 
 
 
-document.getElementById("rezept").addEventListener("click", rezeptClick);
+//document.getElementById("rezept").addEventListener("click", rezeptClick);
 
 function rezeptClick()
 {
 //document.querySelector(".chosen").
   // Get the <ul> element with id="myList"
 var list = document.getElementById("list");
-document.getElementById("rezept").addEventListener("click", rezeptClick);
+//document.getElementById("rezept").addEventListener("click", rezeptClick);
 
 // As long as <ul> has a child node, remove it
 while (list.hasChildNodes()) {  
@@ -67,14 +67,14 @@ node.appendChild(textnode);                              // Append the text to <
 document.querySelector(".article").appendChild(node);     // Append <li> to <ul> with id="myList"
 
 function openArticle(){
-  document.getElementById("rezept").addEventListener("click", rezeptClick);
+  //document.getElementById("rezept").addEventListener("click", rezeptClick);
    document.body.removeChild(container); 
 
 
 }
 
 function openMalen(){
-  document.getElementById("rezept").addEventListener("click", rezeptClick);
+  //document.getElementById("rezept").addEventListener("click", rezeptClick);
    document.body.removeChild(container); 
 
 }

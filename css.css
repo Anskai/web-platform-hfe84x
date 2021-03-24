@@ -173,7 +173,6 @@ background-color: white;
 }
 
 @media(min-width: 1200px) {
-	
 
 }
 
@@ -220,5 +219,5 @@ p{
 	font-size: 16px;
 	text-align: left;
 	padding-bottom: 5px;
-  to {top: 50px;}
+ // to{top: 50px;}
 }
