@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+}
+
+.col-sm-4{
+	float: left;
+	width: 33%;
+	animation: mymove 1s;
+   
+}
+.main,.col-sm-1{
+	background-image: linear-gradient(to right, #f5d0e5, #d8fedf);
+	
+}
+body{
+	background-color: white;
+	
+}
+nav{
+	background-color: #fce8f3;
+	opacity: 0.5;
+}
+#logo-img {
+	background: url("art.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+
+
+}
+
+h2{
+	font-family: "Fredericka the Great", sans-serif;
+    font-weight: 300;
+    position: center;
+	text-align: center !important;
+	color: grey;
+	font-size: 18px;
+	
+}
+h1{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+	text-align: center;
+	font-size: 26px;
+	letter-spacing: 2px;
+
+
+}
+.main {
+		padding-top: 30px;
+
+	padding-bottom: 30px;
+}
+li, .article{
+    font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+	text-align: left;
+	padding-top: 10px;
+}
+#header{
+	animation: tocenter 1s;
+}
+
+
+li:hover{
+color: #ff4998;	
+}
+
+.article:active{
+	color: grey;
+}
+img{
+	
+	position: center;
+	width: 250px;
+	opacity: 0.9;
+	border-radius: 50%;
+	margin: 3px;
+	padding: 2px;
+}
+
+#chosen{
+background-color: white;
+}
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+.col-sm-3 {
+	font-size: 20px;
+	text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+	background-color: #fce8f3;
+	
+}
+
+.col-sm-4:hover{
+	/*background-color: #dee0e0;*/
+	background-color: white;
+    text-decoration: underline overline;
+}
+
+.col-sm-4:active{
+	color: grey;	
+
+}
+.col-sm-4:focus{
+	text-decoration: underline overline;
+	
+}
+.navbar-toggle
+{
+	position: relative;
+	float: right;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.navbar-toggle:focus
+{
+	outline:0;
+}
+
+.navbar-toggle .icon-bar
+{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+
+}
+#hidden {
+	display: none;
+}
+#nav-list, .foto{
+	 list-style-type: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-collapse, .collapse > .nav, .navbar-nav, .navbar-right {
+	display: none;
+}
+.havbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.havbar-header button.navbar-toggle {
+	clear: both;
+	margin-top:  -30px;
+}
+
+@keyframes tocenter {
+  from {left: 0px;}
+  to {left: width/2;}
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 20px;}
+}
+
+@media(min-width: 1200px) {
+	
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+#logo-img{
+	background: url("art.png") no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0;
+}
+/* End Header*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-toggle{
+		display: none;
+	}
+	
+}
+@media (max-width: 767px) {
+.main {
+		display: none;
+	}
+	.article {
+		font-size: 12px;
+	}
+	#header {
+		font-size: 8px;
+
+	}
+	h2{
+		font-size: 16px;
+	
+	}
+	h1{
+		font-size: 16px;
+	
+	}
+	.main {
+		font-size: 5vw;
+	}
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	padding-bottom: 5px;
+  to {top: 50px;}
+}
